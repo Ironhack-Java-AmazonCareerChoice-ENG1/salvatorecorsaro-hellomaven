@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Hello " + faker.funnyName().name());
         System.out.println(faker.yoda().quote());
 
-        User user = new User("salva", "salva@mail.com");
+        User user = new User("salva", "sicily123", "salva@mail.com");
         String userAsJson = gson.toJson(user);
         System.out.println(userAsJson);
         User user2 = gson.fromJson(userAsJson, User.class);
